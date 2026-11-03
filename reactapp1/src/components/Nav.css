@@ -1,0 +1,28 @@
+.navBar{
+
+    display: flex;
+    justify-content: space-between;
+    padding:10px 40px;
+    background-color:rgba(14, 14, 214, 0.588)
+}
+
+.logo{
+    width:100px;
+    height:auto;
+}
+
+.topMenu{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-size: 1.1rem;
+    color:white
+}
+
+.links{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 10px;
+    transition: color 0.3s ease;
+}

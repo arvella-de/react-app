@@ -1,0 +1,70 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 24px;
+  background: #f3f4f6;
+}
+
+.signup-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.signup-card h2 {
+  margin: 0 0 24px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup-card label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #374151;
+}
+
+.signup-card input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  /* Removed extra margin-bottom since form gap handles spacing */
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  font-size: 16px;
+  display: block;
+}
+
+.signup-card input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.signup-btn {
+  padding: 12px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background: #1d4ed8;
+}
+
+

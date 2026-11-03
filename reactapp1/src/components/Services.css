@@ -1,0 +1,21 @@
+.services{
+    padding: 60px 40px;
+    background-color: #f5f7fa;
+    text-align: center;
+
+}
+
+.serviceh1{
+    color: rgb(231, 54, 54);
+    font-size: 32px;
+    margin: 5px;
+
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
